@@ -1,0 +1,13 @@
+prefix=/Users/preetyrai/mlprojects/Resume_Screening_Self/venv
+exec_prefix=/Users/preetyrai/mlprojects/Resume_Screening_Self/venv
+libdir=/Users/preetyrai/mlprojects/Resume_Screening_Self/venv/lib
+sharedlibdir=/Users/preetyrai/mlprojects/Resume_Screening_Self/venv/lib
+includedir=/Users/preetyrai/mlprojects/Resume_Screening_Self/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
